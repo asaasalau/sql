@@ -210,4 +210,8 @@ Consider, for example, concepts of fariness, inequality, social structures, marg
 
 ```
 Your thoughts...
-```
+Now as I am approaching the end of my degree and starting my job search, it's becoming more evident that data systems using hiring and resume screening tools are becoming increasingly common across industries. Many large companies rely on Applicant Tracking Systems (ATS) to filter candidates before a human ever reviews a single application. It becomes difficult to job search and try to get past the initial screening stage if specific keywords aren't met in the cover letter or resume, making it deeply unfair for individuals who are genuinely qualified candidates to even reach the interview stage.
+
+These systems embed assumptions about what a "qualified" candidate looks like, often based on rigid keyword matching rather than a holistic understanding of a person's skills, experiences, and potential. A candidate could have years of relevant hands-on experience, strong problem-solving abilities, and a demonstrated track record of success, yet still be filtered out simply because their resume didn't use the exact phrasing the algorithm was trained to look for. This creates a paradox where the ability to game a screening system becomes more valued than actual competency.
+
+This raises broader questions about fairness and who these systems are truly designed to serve. First-generation college students, career changers, or those from non-traditional educational backgrounds may be disproportionately disadvantaged, as they are less likely to know how to tailor their materials to satisfy an algorithm. Ultimately, automated hiring tools risk perpetuating existing inequalities rather than creating more equitable pathways into the workforce.
