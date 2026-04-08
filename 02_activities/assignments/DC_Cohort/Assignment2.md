@@ -56,7 +56,8 @@ The store wants to keep customer addresses. Propose two architectures for the CU
 **HINT:** search type 1 vs type 2 slowly changing dimensions. 
 
 ```
-Your answer...
+Type 1 overwrites the existing address record with the new values. Only the current state is stored — when a customer moves, the old address is gone. 
+Type 2 preserves full history by adding a new row each time an address changes so it retains changes.
 ```
 
 ***
@@ -191,5 +192,8 @@ Consider, for example, concepts of labour, bias, LLM proliferation, moderating c
 
 
 ```
-Your thoughts...
+Boykis's essay highlights a fundamental issue in machine learning: the systems we treat as automated are built on human labour. The pipeline traces back decades — from researchers manually classifying newspaper text in the 1960s to build the Brown Corpus, to thousands of Mechanical Turk workers tagging millions of images for ImageNet. Substack This matters because when we obscure the human element, we also obscure the points where error and subjectivity enter the system.
+That leads directly to the question of bias, which is the most scientifically significant issue the essay raises. Every layer of a training dataset — the taxonomy, the category definitions, the individual labels — reflects human decisions, and those decisions carry cultural and political assumptions. Substack In a controlled experiment, we'd call these confounding variables. But in ML, they get treated as ground truth. When a worker on Mechanical Turk labels an image, they're making a subjective classification informed by their own context, and that classification gets locked into the dataset permanently. Scale that across millions of labels and you have systemic bias encoded into what's supposed to be an objective training signal.
+he ImageNet Roulette project demonstrated it empirically — the system returned offensive and arbitrary labels for human faces because nobody had rigorously audited the underlying category structure. More concerning is the timeline: ImageNet identified over 1,500 offensive synsets in its person subtree, but this only happened after the dataset had been the benchmark in computer vision research for years.Every model trained on that data inherited those biases, and any downstream conclusions drawn from those models are potentially compromised. 
+
 ```
